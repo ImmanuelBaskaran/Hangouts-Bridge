@@ -7,7 +7,7 @@ import hangups
 
 # ID of the conversation to send the message to. Conversation IDs can be found
 # in the hangups debug log by searching for "conversation_id".
-CONVERSATION_ID = 'UgzYahqOd_w_Z5jfBGh4AaABAQ'
+CONVERSATION_ID = "your ID"
 
 # Plain-text content of the message to send.
 MESSAGE = 'hello world'
