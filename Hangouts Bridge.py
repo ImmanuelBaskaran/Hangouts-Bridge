@@ -20,10 +20,10 @@ REFRESH_TOKEN_PATH = 'refresh_token.txt'
 
 mxclient = MatrixClient("https://matrix.org" )
 
-username = input()
-password = input()
+u_username = input()
+u_password = input()
 
-token = mxclient.login_with_password(username="", password="")
+token = mxclient.login_with_password(username=u_username, password=u_password)
 
 room = mxclient.rooms["!eZeuhBjulWQLyyYEXQ:matrix.org"]
 Lock = True
